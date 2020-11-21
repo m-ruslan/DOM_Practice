@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kottans DOM practice</title>
-  </head>
-  <body>
-    <header>
-      <h1>The Lord of the Rings</h1>
-      <img src="./img/ring.png" alt="The Ring" />
-    </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="app.css" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <title>Kottans DOM practice</title>
+</head>
+
+<body>
+  <header>
+    <img src="./img/ring.png" alt="The Ring" class="header__item header__img">
+    <h1 class="header__item">The Lord of the Rings</h1>
+
+  </header>
+  <main>
     <nav>
       <ul class="nav-container">
         <li class="nav-el">
@@ -35,9 +41,11 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <section class="main-section" id="main-section">
-        <p class="main-section__item" id="main-section__text">
+
+    <article class="article" id="article">
+      <h2 class="article__header" id="article__header">General Info</h2>
+      <div class="article-content">
+        <p class="article-content__item article-content__text" id="article-content__text">
           The Lord of the Rings is an epic high fantasy nove by the English
           author and scholar J. R. R. Tolkien. Set in Middle-earth, the world at
           some distant time in the past, the story began as a sequel to
@@ -46,14 +54,12 @@
           Lord of the Rings is one of the best-selling books ever written, with
           over 150 million copies sold.
         </p>
-        <img
-          src="./img/book.gif"
-          alt="Book cover"
-          class="main-section__item"
-          id="main-section__img"
-        />
-      </section>
-    </main>
-    <script src="./app.js"></script>
-  </body>
+        <img src="./img/book.gif" alt="Book cover" class="article-content__item article-content__img"
+          id="article-content__img">
+      </div>
+    </article>
+  </main>
+  <script src="./app.js"></script>
+</body>
+
 </html>
