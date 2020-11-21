@@ -35,7 +35,7 @@ let pageSections = {
     h2Text: "Books",
     pText:
       "Although generally known to readers as a trilogy, the work was initially intended by Tolkien to be one volume of a two-volume set along with The Silmarillion, but this idea was dismissed by his publisher. For economic reasons, The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955. The three volumes were titled The Fellowship of the Ring, The Two Towers and The Return of the King. Structurally, the work is divided internally into six books, two per volume, with several appendices of background material at the end. Some editions print the entire work into a single volume, following the author's original intent.",
-    imgSrc: "./img/books.jpg",
+    imgSrc: "./img/ltr_book.png",
     altText: "LOTR Books trilogy",
   },
   radio: {

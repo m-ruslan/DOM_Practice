@@ -5,7 +5,7 @@ html {
 body {
   background-color: #f0eee8;
   font-family: sans-serif;
-  width: 900px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: left;
   align-items: center;
-  width: 900px;
+  width: 100%;
 }
 
 .header__item {
@@ -29,8 +29,8 @@ header {
 main {
   background-color: #a3a097;
   display: inline-block;
-  width: 900px;
-  min-height: 500px;
+  width: 100%;
+  min-height: 590px;
 }
 
 nav {
@@ -58,6 +58,24 @@ a {
   align-items: center;
 }
 
+.nav-el {
+  max-width: 100px;
+  /* background-color: #a3a097; */
+  margin: 0px;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.nav-el:hover {
+  background-color: #d4cfc0;
+  border-radius: 3px;
+}
+
+.nav-el__item {
+  margin: 0px;
+  padding: 0px;
+}
+
 .article__header {
   margin: 20px 10px;
 }
@@ -75,5 +93,5 @@ a {
 }
 
 .article-content__img {
-  max-height: 400px;
+  width: 300px;
 }
