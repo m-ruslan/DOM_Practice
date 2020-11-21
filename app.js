@@ -26,7 +26,7 @@ let pageSections = {
     id: "info",
     h2Text: "General Info",
     pText:
-      "The Lord of the Rings is an epic high fantasy nove by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the world at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold.",
+      "The Lord of the Rings is an epic high fantasy novel by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the world at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work.<br>Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold.",
     imgSrc: "./img/book.gif",
     altText: "Book cover",
   },
@@ -34,7 +34,7 @@ let pageSections = {
     id: "books",
     h2Text: "Books",
     pText:
-      "Although generally known to readers as a trilogy, the work was initially intended by Tolkien to be one volume of a two-volume set along with The Silmarillion, but this idea was dismissed by his publisher. For economic reasons, The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955. The three volumes were titled The Fellowship of the Ring, The Two Towers and The Return of the King. Structurally, the work is divided internally into six books, two per volume, with several appendices of background material at the end. Some editions print the entire work into a single volume, following the author's original intent.",
+      "Although generally known to readers as a trilogy, the work was initially intended by Tolkien to be one volume of a two-volume set along with The Silmarillion, but this idea was dismissed by his publisher. For economic reasons, The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955.<br>The three volumes were titled The Fellowship of the Ring, The Two Towers and The Return of the King. Structurally, the work is divided internally into six books, two per volume, with several appendices of background material at the end. Some editions print the entire work into a single volume, following the author's original intent.",
     imgSrc: "./img/ltr_book.png",
     altText: "LOTR Books trilogy",
   },
@@ -74,7 +74,7 @@ let pageSections = {
     id: "tv",
     h2Text: "Television",
     pText:
-      "In 2017, Amazon acquired the global television rights to The Lord of the Rings for a multi-season television series of new stories set before The Hobbit and The Lord of the Rings, based on Tolkien's descriptions of events of the Second Age of Middle-earth.<br>Amazon bought the television rights for The Lord of the Rings for $250 million in November 2017, making a five season production commitment worth at least $1 billion. This would make it the most expensive television series ever. Payne and McKay were hired to develop the series in July 2018, with the rest of the creative team confirmed a year later. Casting took place around the world, with Robert Aramayo leading a large cast of series regulars. Filming began in February 2020 in Auckland, New Zealand, after negotiations between Amazon and the New Zealand government ensured the series could be produced in the country where the film trilogy was made. Production was placed on hold in March due to the COVID-19 pandemic, but resumed in September.<br>The Lord of the Rings is expected to premiere on Prime Video in 2021. A second season was formally ordered in November 2019.",
+      "In 2017, Amazon acquired the global television rights to The Lord of the Rings for a multi-season television series of new stories set before The Hobbit and The Lord of the Rings, based on Tolkien's descriptions of events of the Second Age of Middle-earth.<br>Amazon bought the television rights for The Lord of the Rings for $250 million in November 2017, making a five season production commitment worth at least $1 billion. This would make it the most expensive television series ever.<br>Filming began in February 2020 in Auckland, New Zealand, after negotiations between Amazon and the New Zealand government ensured the series could be produced in the country where the film trilogy was made. Production was placed on hold in March due to the COVID-19 pandemic, but resumed in September.<br>The Lord of the Rings is expected to premiere on Prime Video in 2021. A second season was formally ordered in November 2019.",
     imgSrc: "./img/tv.jpg",
     altText: "LOTR and Amazon poster",
   },
