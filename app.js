@@ -1,31 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("DOM is loaded");
+  loadPageData("info");
+
   for (i in pageSections) {
     document
       .querySelector("#" + pageSections[i].id)
       .addEventListener("click", (event) => {
         console.log(event.path[0].id);
-        let clickedNavSection = event.path[0].id;
-        let sectionData = pageSections[clickedNavSection];
-        let imgHTMLText =
-          '<img src="' +
-          sectionData.imgSrc +
-          '" alt="' +
-          sectionData.altText +
-          '" class="article-content__item article-content__img" id="article-content__img">';
-        document.querySelector("#article__header").innerHTML =
-          sectionData.h2Text;
-        document.querySelector("#article-content__text").innerHTML =
-          imgHTMLText + sectionData.pText;
-        // document
-        //   .querySelector("#article-content__img")
-        //   .setAttribute("src", sectionData.imgSrc);
-        // document
-        //   .querySelector("#article-content__img")
-        //   .setAttribute("alt", sectionData.altText);
+        let section = event.path[0].id;
+        loadPageData(section);
       });
   }
 });
+
+let loadPageData = (section) => {
+  let sectionData = pageSections[section];
+  let imgHTMLText =
+    '<img src="' +
+    sectionData.imgSrc +
+    '" alt="' +
+    sectionData.altText +
+    '" class="article-content__item article-content__img" id="article-content__img">';
+  document.querySelector("#article__header").innerHTML = sectionData.h2Text;
+  document.querySelector("#article-content__text").innerHTML =
+    imgHTMLText + sectionData.pText;
+};
 
 let pageSections = {
   info: {
