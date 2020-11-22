@@ -7,16 +7,22 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(event.path[0].id);
         let clickedNavSection = event.path[0].id;
         let sectionData = pageSections[clickedNavSection];
+        let imgHTMLText =
+          '<img src="' +
+          sectionData.imgSrc +
+          '" alt="' +
+          sectionData.altText +
+          '" class="article-content__item article-content__img" id="article-content__img">';
         document.querySelector("#article__header").innerHTML =
           sectionData.h2Text;
         document.querySelector("#article-content__text").innerHTML =
-          sectionData.pText;
-        document
-          .querySelector("#article-content__img")
-          .setAttribute("src", sectionData.imgSrc);
-        document
-          .querySelector("#article-content__img")
-          .setAttribute("alt", sectionData.altText);
+          imgHTMLText + sectionData.pText;
+        // document
+        //   .querySelector("#article-content__img")
+        //   .setAttribute("src", sectionData.imgSrc);
+        // document
+        //   .querySelector("#article-content__img")
+        //   .setAttribute("alt", sectionData.altText);
       });
   }
 });
